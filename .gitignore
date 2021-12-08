@@ -11,5 +11,18 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+*.idea
+.vscode
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+model_dir
+testdata/*
+!testdata/saved_model_half_plus_two_cpu/default
+
+build/
+models/
+tmp/
+files/
+*.gz
+*.log

@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  gp-example:
+    build: .
+    environment:
+      TZ: "Asia/Shanghai"
+      GOPROXY: "https://goproxy.cn,https://goproxy.io/,https://mirrors.aliyun.com/goproxy/,https://gocenter.io/,https://proxy.golang.org,direct"
+    container_name: gp-example
+    image: xwi88/gp-example:latest
+    restart: 'always' # 'no'|'on-failure'|'always'|'unless-stopped'
+    tty: true
+    volumes:
+      - $PWD:/data1/services/app
+    command: '/bin/bash'
+

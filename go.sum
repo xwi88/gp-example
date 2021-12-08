@@ -1,0 +1,4 @@
+github.com/tensorflow/tensorflow v2.1.4+incompatible h1:eYEj4YOoIfBQydEZHIvQOFjkGINBqJTtMuSf304cQfI=
+github.com/tensorflow/tensorflow v2.1.4+incompatible/go.mod h1:itOSERT4trABok4UOoG+X4BoKds9F3rIsySdn+Lvu90=
+github.com/xwi88/gp v0.0.6 h1:s0wLKL2zIq6Zo/1aQ3zIy+NOAoJMLHB7GLgwgX3sMJQ=
+github.com/xwi88/gp v0.0.6/go.mod h1:+9kwJPhGfROPSVLUgMz/v1skVUqaBPjU3bxkd1NAaMc=
