@@ -6,7 +6,7 @@ gp example with docker
 
 - `go 1.16+`
 - `docker & docker engine, maybe need docker-compose`
-- docker image shall use: `v8fg/ubuntu:16.04-go1.17.4-tf-cpu'
+- docker image shall use: **v8fg/ubuntu:18.04-go1.17.4-tf-cpu**
     - more images ref: [v8fg/docker-compose-resources](https://github.com/v8fg/docker-compose-resources.git)
 
 ## Command
